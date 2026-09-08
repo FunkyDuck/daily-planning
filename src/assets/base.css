@@ -1,6 +1,16 @@
+@import '../../node_modules/css-reset/reset.css';
+
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
-  --vt-c-white: #ffffff;
+  /* https://coolors.co/6b6054-929487-a1b0ab-c3dac3-d5ecd4 */
+
+  --brown: #6b6054;
+  --grey-olive: #929487;
+  --ash-grey: #a1b0ab;
+  --tea-green: #c3dac3;
+  --frosted-mint: #d5ecd4;
+
+  /* --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
 
@@ -18,12 +28,17 @@
   --vt-c-text-light-1: var(--vt-c-indigo);
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
-  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64); */
 }
 
 /* semantic color variables for this project */
 :root {
-  --color-background: var(--vt-c-white);
+  --color-background: var(--brown);
+  --color-background-soft: var(--grey-olive);
+  --color-text: var(--frosted-mint);
+  --color-heading: var(--tea-green);
+
+  /* --color-background: var(--vt-c-white);
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
 
@@ -31,14 +46,17 @@
   --color-border-hover: var(--vt-c-divider-light-1);
 
   --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-1); */
 
   --section-gap: 160px;
+
+  margin: 0;
+  padding: 0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: var(--vt-c-black);
+    /* --color-background: var(--vt-c-black);
     --color-background-soft: var(--vt-c-black-soft);
     --color-background-mute: var(--vt-c-black-mute);
 
@@ -46,7 +64,7 @@
     --color-border-hover: var(--vt-c-divider-dark-1);
 
     --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
+    --color-text: var(--vt-c-text-dark-2); */
   }
 }
 
@@ -59,9 +77,11 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
+  /* color: var(--color-text); */
+  /* background: var(--color-background); */
   transition:
     color 0.5s,
     background-color 0.5s;
