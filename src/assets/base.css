@@ -1,50 +1,64 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
+  /* Color test palette v1 */
   /* https://coolors.co/6b6054-929487-a1b0ab-c3dac3-d5ecd4 */
+  /* color test palette v2 */
+  /* Main 5 colors https://coolors.co/user/palettes/6aa117fe40e0b800113f8458 */
+  /* Main Text color : Evergreen - #013220 */
+  /*  Calendar colors 1 (9 colors) - Vibrant Neon Fusion */
+  /* https://coolors.co/palette/33a8c7-52e3e1-a0e426-fdf148-ffab00-f77976-f050ae-d883ff-9336fd */
+  /* Calendar colors 2 (10 colors) - Colorful Rainbow Spectrum*/
+  /* https://coolors.co/palette/669900-99cc33-ccee66-006699-3399cc-990066-cc3399-ff6600-ff9900-ffcc00 */
+  /* Light steel colors - Calendar Holiday */
+  /* https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529 */
 
-  --brown: #6b6054;
-  --grey-olive: #929487;
-  --ash-grey: #a1b0ab;
-  --tea-green: #c3dac3;
-  --frosted-mint: #d5ecd4;
 
-  /* --vt-c-white: #ffffff;
-  --vt-c-white-soft: #f8f8f8;
-  --vt-c-white-mute: #f2f2f2;
 
-  --vt-c-black: #181818;
-  --vt-c-black-soft: #222222;
-  --vt-c-black-mute: #282828;
+  /* Main color palette */
+  --pine-teal: #1b4d3e;
+  --deep-teal: #507a6b;
+  --muted-teal: #86a697;
+  --ash-grey: #bbd3c4;
+  --honeydew: #f0fff0;
+  --evergreen: #013220;
 
-  --vt-c-indigo: #2c3e50;
+  /* Calendar colors */
+  --turquoise-surf: #33a8c7;
+  --neon-ice: #52e3e1;
+  --slime-lime: #a0e426;
+  --banana-cream: #fdf148;
+  --orange: #ffab00;
+  --grapefruit-pink: #f77976;
+  --deep-pink: #f050ae;
+  --rose-magic: #d883ff;
+  --purple: #9336fd;
 
-  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
-  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
-  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
-  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+  /* Gray scale */
+  --bright-snow: #f8f9fa;
+  --pale-slate: #adb5bd;
+  --carbon-black: #212529;
 
-  --vt-c-text-light-1: var(--vt-c-indigo);
-  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
-  --vt-c-text-dark-1: var(--vt-c-white);
-  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64); */
 }
 
 /* semantic color variables for this project */
 :root {
-  --color-background: var(--brown);
-  --color-background-soft: var(--grey-olive);
-  --color-text: var(--frosted-mint);
-  --color-heading: var(--tea-green);
+  --color-background: var(--honeydew);
+  --color-background-contrast: var(--pine-teal);
+  --color-text: var(--evergreen);
+  --color-text-contrast: var(--honeydew);
+  --color-heading: var(--deep-teal);
 
-  /* --color-background: var(--vt-c-white);
-  --color-background-soft: var(--vt-c-white-soft);
-  --color-background-mute: var(--vt-c-white-mute);
-
-  --color-border: var(--vt-c-divider-light-2);
-  --color-border-hover: var(--vt-c-divider-light-1);
-
-  --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1); */
+  --color-curse-1: var(--turquoise-surf);
+  --color-curse-2: var(--neon-ice);
+  --color-curse-3: var(--slime-lime);
+  --color-curse-4: var(--banana-cream);
+  --color-curse-5: var(--orange);
+  --color-curse-6: var(--grapefruit-pink);
+  --color-curse-7: var(--deep-pink);
+  --color-curse-8: var(--rose-magic);
+  --color-curse-9: var(--purple);
+  --color-curse-text: var(--bright-snow);
+  --color-curse-text-contrast: var(--carbon-black);
 
   --section-gap: 160px;
 

@@ -1,238 +1,238 @@
 {
-    "cours": [
+  "cours": [
+    {
+      "nom": "POO",
+      "ecole": "Mouscron",
+      "prof": "",
+      "jours_cours": [
         {
-            "nom": "POO",
-            "ecole": "Mouscron",
-            "prof": "",
-            "jours_cours": [
-                {
-                    "jour": "mardi",
-                    "date_debut": "08/09/2026",
-                    "date_fin": "14/01/2027",
-                    "heure_debut": "18:00",
-                    "heure_fin": "21:25"
-                },
-                {
-                    "jour": "jeudi",
-                    "date_debut": "08/09/2026",
-                    "date_fin": "14/01/2027",
-                    "heure_debut": "18:00",
-                    "heure_fin": "21:25"
-                }
-            ]
+          "jour": "mardi",
+          "date_debut": "08/09/2026",
+          "date_fin": "14/01/2027",
+          "heure_debut": "18:00",
+          "heure_fin": "21:25"
         },
         {
-            "nom": "Dev. SGBD",
-            "ecole": "Mouscron",
-            "prof": "",
-            "jours_cours": [
-                {
-                    "jour": "mardi",
-                    "date_debut": "29/03/2027",
-                    "date_fin": "21/04/2027",
-                    "heure_debut": "17:35",
-                    "heure_fin": "21:25"
-                },
-                {
-                    "jour": "jeudi",
-                    "date_debut": "18/01/2026",
-                    "date_fin": "21/04/2027",
-                    "heure_debut": "17:35",
-                    "heure_fin": "21:25"
-                }
-            ],
-            "Jours_supp": [
-                {
-                    "date": "07/04/2027",
-                    "heure_debut": "18:50",
-                    "heure_fin": "21:25"
-                },
-                {
-                    "date": "14/04/2027",
-                    "heure_debut": "19:45",
-                    "heure_fin": "21:25"
-                },
-                {
-                    "date": "21/04/2027",
-                    "heure_debut": "17:10",
-                    "heure_fin": "21:25"
-                }
-            ]
-        },
-        {
-            "nom": "Pro. Web",
-            "ecole": "Mons",
-            "prof": "",
-            "jours_cours": [
-                {
-                    "jour": "mercredi",
-                    "date_debut": "02/11/2026",	
-                    "date_fin": "07/06/2027",
-                    "heure_debut": "09:00",
-                    "heure_fin": "12:20"
-                }
-            ]
-        },
-        {
-            "nom": "Pro. Analyse",
-            "ecole": "Mons",
-            "prof": "",
-            "jours_cours": [
-                {
-                    "jour": "lundi",
-                    "date_debut": "07/09/2026",
-                    "date_fin": "12/12/2026",
-                    "heure_debut": "09:00",
-                    "heure_fin": "12:20"
-                },
-                {
-                    "jour": "vendredi",
-                    "date_debut": "07/09/2026",
-                    "date_fin": "12/12/2026",
-                    "heure_debut": "09:00",
-                    "heure_fin": "12:20"
-                }
-            ],
-            "Jours_supp": [
-                {
-                    "date": "02/10/2026",
-                    "heure_debut": "13:00",
-                    "heure_fin": "16:20"
-                },
-                {
-                    "date": "11/12/2026",
-                    "heure_debut": "13:00",
-                    "heure_fin": "16:20"
-                }
-            ]
-        },
-        {
-            "nom": "Structure Ordinateurs",
-            "ecole": "Mons",
-            "prof": "",
-            "jours_cours": [
-                {
-                    "jour": "mardi",
-                    "date_debut": "07/09/2026",	
-                    "date_fin": "16/01/2027",
-                    "heure_debut": "09:00",
-                    "heure_fin": "12:20"
-                }
-            ]
-        },
-        {
-            "nom": "Math",
-            "ecole": "Mons",
-            "prof": "",
-            "jours_cours": [
-                {
-                    "jour": "mercredi",
-                    "date_debut": "07/09/2026",	
-                    "date_fin": "16/01/2027",
-                    "heure_debut": "13:00",
-                    "heure_fin": "16:20"
-                }
-            ]
-        },
-        {
-            "nom": "Admin Réseaux",
-            "ecole": "Mons",
-            "prof": "",
-            "jours_cours": [
-                {
-                    "jour": "Jeudi",
-                    "date_debut": "07/09/2026",	
-                    "date_fin": "10/04/2027",
-                    "heure_debut": "09:00",
-                    "heure_fin": "12:20"
-                }
-            ]
-        },
-        {
-            "nom": "Orga. Entreprise Manag.",
-            "ecole": "Mons",
-            "prof": "",
-            "jours_cours": [
-                {
-                    "jour": "jeudi",
-                    "date_debut": "30/11/2026",	
-                    "date_fin": "19/02/2027",
-                    "heure_debut": "13:00",
-                    "heure_fin": "16:20"
-                }
-            ]
-        },
-        {
-            "nom": "Notions e-business",
-            "ecole": "Mons",
-            "prof": "",
-            "jours_cours": [
-                {
-                    "jour": "mardi",
-                    "date_debut": "19/03/2027",
-                    "date_fin": "18/06/2027",
-                    "heure_debut": "09:00",
-                    "heure_fin": "12:20"
-                },
-                {
-                    "jour": "jeudi",
-                    "date_debut": "06/03/2027",
-                    "date_fin": "11/06/2027",
-                    "heure_debut": "09:00",
-                    "heure_fin": "12:20"
-                }
-            ],
-            "Jours_supp": [
-                {
-                    "date": "14/05/2027",
-                    "heure_debut": "13:00",
-                    "heure_fin": "16:20"
-                }
-            ]
+          "jour": "jeudi",
+          "date_debut": "08/09/2026",
+          "date_fin": "14/01/2027",
+          "heure_debut": "18:00",
+          "heure_fin": "21:25"
         }
-    ],
-    "feries" : [
+      ]
+    },
+    {
+      "nom": "Dev. SGBD",
+      "ecole": "Mouscron",
+      "prof": "",
+      "jours_cours": [
         {
-            "nom": "Fête des Morts",
-            "date": "02/11/2026"
+          "jour": "mardi",
+          "date_debut": "29/03/2027",
+          "date_fin": "21/04/2027",
+          "heure_debut": "17:35",
+          "heure_fin": "21:25"
         },
         {
-            "nom": "Armistice",
-            "date": "11/11/2026"
-        },
-        {
-            "nom": "Pâques",
-            "date": "29/03/2027"
-        },
-        {
-            "nom": "Ascencion",
-            "date": "06/05/2027"
-        },
-        {
-            "nom": "Pentecôte",
-            "date": "17/05/2027"
+          "jour": "jeudi",
+          "date_debut": "18/01/2027",
+          "date_fin": "21/04/2027",
+          "heure_debut": "17:35",
+          "heure_fin": "21:25"
         }
-    ],
-    "vacances": [
+      ],
+      "Jours_supp": [
         {
-            "nom": "Toussaint",
-            "date_debut": "19/10/2026",
-            "date_fin": "01/11/2026"
+          "date": "07/04/2027",
+          "heure_debut": "18:50",
+          "heure_fin": "21:25"
         },
         {
-            "nom": "Noël",
-            "date_debut": "21/12/2026",
-            "date_fin": "03/01/2027"
+          "date": "14/04/2027",
+          "heure_debut": "19:45",
+          "heure_fin": "21:25"
         },
         {
-            "nom": "Carnaval",
-            "date_debut": "22/02/2027",
-            "date_fin": "07/03/2027"
-        },
-        {
-            "nom": "Pâques",
-            "date_debut": "26/04/2027",
-            "date_fin": "09/05/2027"
+          "date": "21/04/2027",
+          "heure_debut": "17:10",
+          "heure_fin": "21:25"
         }
-    ]
+      ]
+    },
+    {
+      "nom": "Pro. Web",
+      "ecole": "Mons",
+      "prof": "P. Cauchies",
+      "jours_cours": [
+        {
+          "jour": "mercredi",
+          "date_debut": "02/11/2026",
+          "date_fin": "07/06/2027",
+          "heure_debut": "09:00",
+          "heure_fin": "12:20"
+        }
+      ]
+    },
+    {
+      "nom": "Pro. Analyse",
+      "ecole": "Mons",
+      "prof": "D. Passelecq",
+      "jours_cours": [
+        {
+          "jour": "lundi",
+          "date_debut": "07/09/2026",
+          "date_fin": "12/12/2026",
+          "heure_debut": "09:00",
+          "heure_fin": "12:20"
+        },
+        {
+          "jour": "vendredi",
+          "date_debut": "07/09/2026",
+          "date_fin": "12/12/2026",
+          "heure_debut": "09:00",
+          "heure_fin": "12:20"
+        }
+      ],
+      "Jours_supp": [
+        {
+          "date": "02/10/2026",
+          "heure_debut": "13:00",
+          "heure_fin": "16:20"
+        },
+        {
+          "date": "11/12/2026",
+          "heure_debut": "13:00",
+          "heure_fin": "16:20"
+        }
+      ]
+    },
+    {
+      "nom": "Structure Ordinateurs",
+      "ecole": "Mons",
+      "prof": "R. Mabchour",
+      "jours_cours": [
+        {
+          "jour": "mardi",
+          "date_debut": "07/09/2026",
+          "date_fin": "16/01/2027",
+          "heure_debut": "09:00",
+          "heure_fin": "12:20"
+        }
+      ]
+    },
+    {
+      "nom": "Math",
+      "ecole": "Mons",
+      "prof": "R. Mabchour",
+      "jours_cours": [
+        {
+          "jour": "mercredi",
+          "date_debut": "07/09/2026",
+          "date_fin": "16/01/2027",
+          "heure_debut": "13:00",
+          "heure_fin": "16:20"
+        }
+      ]
+    },
+    {
+      "nom": "Admin Réseaux",
+      "ecole": "Mons",
+      "prof": "R. Druine",
+      "jours_cours": [
+        {
+          "jour": "Jeudi",
+          "date_debut": "07/09/2026",
+          "date_fin": "10/04/2027",
+          "heure_debut": "09:00",
+          "heure_fin": "12:20"
+        }
+      ]
+    },
+    {
+      "nom": "Orga. Entreprise Manag.",
+      "ecole": "Mons",
+      "prof": "F. Fourneau",
+      "jours_cours": [
+        {
+          "jour": "jeudi",
+          "date_debut": "30/11/2026",
+          "date_fin": "19/02/2027",
+          "heure_debut": "13:00",
+          "heure_fin": "16:20"
+        }
+      ]
+    },
+    {
+      "nom": "Notions e-business",
+      "ecole": "Mons",
+      "prof": "M. Messin - D. Molitor",
+      "jours_cours": [
+        {
+          "jour": "mardi",
+          "date_debut": "19/03/2027",
+          "date_fin": "18/06/2027",
+          "heure_debut": "09:00",
+          "heure_fin": "12:20"
+        },
+        {
+          "jour": "jeudi",
+          "date_debut": "06/03/2027",
+          "date_fin": "11/06/2027",
+          "heure_debut": "09:00",
+          "heure_fin": "12:20"
+        }
+      ],
+      "Jours_supp": [
+        {
+          "date": "14/05/2027",
+          "heure_debut": "13:00",
+          "heure_fin": "16:20"
+        }
+      ]
+    }
+  ],
+  "feries": [
+    {
+      "nom": "Fête des Morts",
+      "date": "02/11/2026"
+    },
+    {
+      "nom": "Armistice",
+      "date": "11/11/2026"
+    },
+    {
+      "nom": "Pâques",
+      "date": "29/03/2027"
+    },
+    {
+      "nom": "Ascencion",
+      "date": "06/05/2027"
+    },
+    {
+      "nom": "Pentecôte",
+      "date": "17/05/2027"
+    }
+  ],
+  "vacances": [
+    {
+      "nom": "Toussaint",
+      "date_debut": "19/10/2026",
+      "date_fin": "01/11/2026"
+    },
+    {
+      "nom": "Noël",
+      "date_debut": "21/12/2026",
+      "date_fin": "03/01/2027"
+    },
+    {
+      "nom": "Carnaval",
+      "date_debut": "22/02/2027",
+      "date_fin": "07/03/2027"
+    },
+    {
+      "nom": "Pâques",
+      "date_debut": "26/04/2027",
+      "date_fin": "09/05/2027"
+    }
+  ]
 }

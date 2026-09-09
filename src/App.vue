@@ -5,12 +5,12 @@ import { onMounted } from 'vue'
 import NavBar from './components/NavBar.vue'
 import { fetchJson } from './services/json.ts'
 
-let jsonData = {};
+let jsonData = {}
 
 onMounted(async () => {
-  jsonData = await fetchJson();
+  jsonData = await fetchJson()
 
-  console.log(jsonData);
+  console.log(jsonData)
 })
 </script>
 
@@ -39,7 +39,7 @@ onMounted(async () => {
   main {
     background: var(--color-background-soft);
     height: 90dvh;
+    padding: 2.5dvh auto;
   }
 }
-
 </style>
