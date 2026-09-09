@@ -33,6 +33,11 @@ const router = createRouter({
       path: '/global',
       name: 'global',
       component: () => import('../views/GlobalView.vue')
+    },
+    {
+      path: '/curse',
+      name: 'curse',
+      component: () => import('../views/CurseView.vue')
     }
   ],
 })

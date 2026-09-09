@@ -8,6 +8,7 @@
             <RouterLink to="weekly">Semaine</RouterLink>
             <RouterLink to="monthly">Mois</RouterLink>
             <RouterLink to="global">Planning Complet</RouterLink>
+            <RouterLink to="curse">Cours</RouterLink>
         </nav>
     </header>
 </template>
