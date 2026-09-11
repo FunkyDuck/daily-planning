@@ -10,7 +10,7 @@ let jsonData = {}
 onMounted(async () => {
   jsonData = await fetchJson()
 
-  console.log(jsonData)
+  // console.log(jsonData)
 })
 </script>
 

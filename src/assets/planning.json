@@ -193,6 +193,10 @@
   ],
   "feries": [
     {
+      "nom": "Jour Test",
+      "date": "11/09/2026"
+    },
+    {
       "nom": "Fête des Morts",
       "date": "02/11/2026"
     },
