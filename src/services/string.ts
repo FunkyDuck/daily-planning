@@ -11,3 +11,18 @@ export function parseDate(date: string): Date {
     return new Date(date)
   }
 }
+
+export function getDateFromDatetime(datetime: string | Date): Date {
+  if(typeof datetime !== 'string')
+    datetime = datetime.toISOString()
+  const date = datetime.split('T')[0] ?? datetime
+  return new Date(date)
+}
+
+export function getFormattedDateFromDatetime(datetime: string | Date): Date {
+  if(typeof datetime !== 'string')
+    datetime = datetime.toISOString()
+  datetime = datetime.split('T')[0] ?? datetime
+  const date = parseDate(datetime)
+  return new Date(date)
+}

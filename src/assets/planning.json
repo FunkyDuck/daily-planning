@@ -219,6 +219,11 @@
   ],
   "vacances": [
     {
+      "nom": "Test Holiday",
+      "date_debut": "09/09/2028",
+      "date_fin": "21/09/2028"
+    },
+    {
       "nom": "Toussaint",
       "date_debut": "19/10/2026",
       "date_fin": "01/11/2026"

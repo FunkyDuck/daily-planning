@@ -26,9 +26,9 @@ onMounted(async () => {
         <section>
             <h1>{{ upperFirst(selectedDate.toLocaleDateString('fr-FR', {weekday: 'long'})) }} {{ selectedDate.toLocaleDateString() }}</h1>
 
-            <article></article>
+            <article>{{ daily }}</article>
         </section>
-        
+
     </main>
 </template>
 

@@ -1,44 +1,38 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'home',
-    //   component: HomeView,
-    // },
     {
       path: '/',
       name: 'home',
-      redirect: ('/daily')
+      redirect: '/daily',
     },
     {
       path: '/daily',
       name: 'daily',
-      component: () => import('../views/DailyView.vue')
+      component: () => import('../views/DailyView.vue'),
     },
     {
       path: '/weekly',
       name: 'weekly',
-      component: () => import('../views/WeeklyView.vue')
+      component: () => import('../views/WeeklyView.vue'),
     },
     {
       path: '/monthly',
       name: 'monthly',
-      component: () => import('../views/MonthlyView.vue')
+      component: () => import('../views/MonthlyView.vue'),
     },
     {
       path: '/global',
       name: 'global',
-      component: () => import('../views/GlobalView.vue')
+      component: () => import('../views/GlobalView.vue'),
     },
     {
       path: '/curse',
       name: 'curse',
-      component: () => import('../views/CurseView.vue')
-    }
+      component: () => import('../views/CurseView.vue'),
+    },
   ],
 })
 
