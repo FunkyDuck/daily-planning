@@ -1,16 +1,11 @@
-import { parseDate, getDateFromDatetime, getFormattedDateFromDatetime } from './string'
+import { getDayString, parseDate } from './string'
 
 export function getDaily(schedule: unknown, day: Date) {
   if (!schedule || !day) return
 
-  console.log(schedule)
-  console.log(day)
   console.log('Now holiday')
   const holiday = Array.from(schedule?.vacances).find((v) => {
-    return (
-      getDateFromDatetime(day).toString() >= parseDate(v?.date_debut).toString() &&
-      getDateFromDatetime(day).toString() <= parseDate(v?.date_fin).toString()
-    )
+    return parseDate(day) >= parseDate(v?.date_debut) && parseDate(day) <= parseDate(v?.date_fin)
   })
 
   if (holiday) {
@@ -19,7 +14,7 @@ export function getDaily(schedule: unknown, day: Date) {
   }
   console.log('Now ferie')
   const ferie = Array.from(schedule.feries).find((f) => {
-    return getDateFromDatetime(day).toString() == getFormattedDateFromDatetime(f?.date).toString()
+    return parseDate(day).getTime() === parseDate(f?.date).getTime()
   })
 
   if (ferie) {
@@ -29,14 +24,30 @@ export function getDaily(schedule: unknown, day: Date) {
 
   console.log('Now cours')
   const cours = Array.from(schedule.cours).find((c) => {
-    return (
-      getDateFromDatetime(day).toString() >= parseDate(c?.date_debut).toString() &&
-      getDateFromDatetime(day).toString() <= parseDate(c?.date_fin).toString()
-    )
+    let curse
+    if (c.jours_cours) {
+      curse = c.jours_cours.find((j) => {
+        return (
+          parseDate(day) >= parseDate(j.date_debut) &&
+          parseDate(day) <= parseDate(j.date_fin) &&
+          j.jour.toLowerCase() === getDayString(day).toLowerCase()
+        )
+      })
+    }
+    if (c.jours_supp) {
+      curse += c.jours_supp.find((j) => {
+        return parseDate(j.date).getTime() == parseDate(day).getTime()
+      })
+    }
+    console.info('Curse')
+    console.log(curse)
+    return curse
   })
 
   if (cours) {
     cours['type'] = 'cours'
     return cours
   }
+
+  return { nom: "Aucun cours aujourd'hui" }
 }

@@ -3,26 +3,17 @@ export function upperFirst(str: string): string {
   return str.charAt(0).toUpperCase() + str.slice(1)
 }
 
-export function parseDate(date: string): Date {
-  try {
-    const [day, month, year] = date.split('/')
-    return new Date(`${year}-${month}-${day}`)
-  } catch {
-    return new Date(date)
-  }
+export function parseDate(datetime: Date | string): Date {
+  if (datetime instanceof Date)
+    return new Date(datetime.getFullYear(), datetime.getMonth(), datetime.getDate())
+  if (!datetime || datetime === undefined) return new Date()
+  const date = datetime.split('T')[0]
+  if (!date || date === undefined) return new Date()
+  const [day, month, year] = date.split('/')
+  return new Date(Number(year), Number(month) - 1, Number(day))
 }
 
-export function getDateFromDatetime(datetime: string | Date): Date {
-  if(typeof datetime !== 'string')
-    datetime = datetime.toISOString()
-  const date = datetime.split('T')[0] ?? datetime
-  return new Date(date)
-}
-
-export function getFormattedDateFromDatetime(datetime: string | Date): Date {
-  if(typeof datetime !== 'string')
-    datetime = datetime.toISOString()
-  datetime = datetime.split('T')[0] ?? datetime
-  const date = parseDate(datetime)
-  return new Date(date)
+export function getDayString(date: Date): string {
+  const days = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi']
+  return days[date.getDay()] ?? ''
 }

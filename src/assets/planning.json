@@ -1,6 +1,34 @@
 {
   "cours": [
     {
+      "nom": "PROUT",
+      "ecole": "Test",
+      "prof": "",
+      "jours_cours": [
+        {
+          "jour": "samedi",
+          "date_debut": "08/09/2026",
+          "date_fin": "14/01/2027",
+          "heure_debut": "10:00",
+          "heure_fin": "11:25"
+        },
+        {
+          "jour": "samedi",
+          "date_debut": "08/09/2026",
+          "date_fin": "14/01/2027",
+          "heure_debut": "13:30",
+          "heure_fin": "15:25"
+        }
+      ],
+      "jours_supp": [
+        {
+          "date": "12/09/2026",
+          "heure_debut": "18:50",
+          "heure_fin": "21:25"
+        }
+      ]
+    },
+    {
       "nom": "POO",
       "ecole": "Mouscron",
       "prof": "",
@@ -41,7 +69,7 @@
           "heure_fin": "21:25"
         }
       ],
-      "Jours_supp": [
+      "jours_supp": [
         {
           "date": "07/04/2027",
           "heure_debut": "18:50",
@@ -93,7 +121,7 @@
           "heure_fin": "12:20"
         }
       ],
-      "Jours_supp": [
+      "jours_supp": [
         {
           "date": "02/10/2026",
           "heure_debut": "13:00",
@@ -182,7 +210,7 @@
           "heure_fin": "12:20"
         }
       ],
-      "Jours_supp": [
+      "jours_supp": [
         {
           "date": "14/05/2027",
           "heure_debut": "13:00",
@@ -192,10 +220,6 @@
     }
   ],
   "feries": [
-    {
-      "nom": "Jour Test",
-      "date": "11/09/2026"
-    },
     {
       "nom": "Fête des Morts",
       "date": "02/11/2026"
@@ -218,11 +242,6 @@
     }
   ],
   "vacances": [
-    {
-      "nom": "Test Holiday",
-      "date_debut": "09/09/2028",
-      "date_fin": "21/09/2028"
-    },
     {
       "nom": "Toussaint",
       "date_debut": "19/10/2026",
